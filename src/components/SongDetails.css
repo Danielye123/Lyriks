@@ -1,0 +1,59 @@
+.rounded-image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.rounded-image:hover {
+    border-radius: 8px;
+}
+
+.lyric-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: solid;
+    width: 500px;
+    background-color:rgba(192,192,192,0.3);
+}
+.related-song{
+    position: absolute;
+    right: 100px;
+    flex-direction: column;
+} 
+
+.related-song-card{
+    outline: solid;
+    flex-grow: 3;
+
+}
+
+.p{
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: baseline;
+
+}
+
+@media screen and (max-width: 850px) {
+    .related-song {
+        position: initial;
+    }
+    .related-song-card {
+        outline: transparent;
+    }
+
+    .rounded-image {
+    width: 120px;
+    height: auto;
+    }
+    
+    .p {
+        width: 160px;
+    }
+
+    .lyric-container {
+        width: 330px;
+        padding-bottom: 12rem;
+
+    } 
+
+}
