@@ -6,7 +6,7 @@ Lyriks is a music application that allows users to view and listen to songs with
 
 ### Application in Action
 
-Visit the application live demo.
+Application currently down due to ShazamCoreAPI changes
 
 ![Lyriks](https://user-images.githubusercontent.com/73367368/209289815-4778ffa9-7d3a-42a3-bf56-5bd0ed1b6f2d.PNG)
 
